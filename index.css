@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Arka plan resminin doğru yolunu yazdığından emin ol */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center; 
+    justify-content: flex-end; 
+    background-color: #f0f0f0; 
+}
+
+.giris-kutusu { /*  giriş yap bölümü bura */
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 350px; 
+    margin-right: 50px; 
+    text-align: left; 
+}
+
+.giris-kutusu h2 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.form-alani {
+    margin-bottom: 20px;
+}
+
+.form-alani etiket {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-alani input[type="text"],
+.form-alani input[type="password"] {
+    width: calc(100% - 30px); /* İkon dan sonra  yer bırak */
+    padding: 12px 15px 12px 40px; /* Solda ikon yana kayıyo  padding */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px; /* İkon boyutu değiştirmek lazım olursa */
+    background-color: white;
+}
+
+.form-alani input[type="text"] {
+    background-image: url('https://www.pinclipart.com/picdir/big/11-114024_videos-to-business-personal-information-icon-png-clipart.png');
+}
+
+.form-alani input[type="password"] {
+    background-image: url('https://avatars.mds.yandex.net/i?id=5b1f49e2b6a83cc355c579834b06bd03-3939383-images-thumbs&n=13');
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.alt-secenek {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alt-secenek a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.alt-secenek a:hover {
+    text-decoration: underline;
+}
+/*hocam css konusunda bi tık yardım aldım çünkü fazla anlamıyorum\*

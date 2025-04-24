@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ziyaretçi Kayıt</title>
+    <link rel="stylesheet" type="text/css" href="./ziyaretci-kayıt.css">
+    <link rel="stylesheet" type="text/css" href="./kayıtlar.css">
+</head>
+<body>
+
+    <div class="kayit-formu">
+
+        <div class="ust-menu">
+            <a href="ziyaretci_kayit.html">Ziyaretçi Kayıt</a>
+            <a href="kayitlar.html">Kayıtları Düzenle</a>
+        </div>
+
+        <h2>Ziyaretçi Bilgileri</h2>
+        <form method="POST" action="/kaydet">
+            <div class="form-grup">
+                <label for="ID">Ziyaretçi Id:</label>
+                <input type="text" id="bu ıd ler ne işe yarıyo" name="Id" required>
+            </div>
+            <div class="form-grup">
+                <label for="ad">Ad:</label>
+                <input type="text" id="" name="ad" required>
+            </div>
+            <div class="form-grup">
+                <label for="soyad">Soyad:</label>
+                <input type="text" id="" name="soyad" required>
+            </div>
+            <div class="form-grup">
+                <label for="ziyaret_tarihi">Ziyaret Tarihi ve Saati:</label>
+                <input type="datetime-local" id="" name="ziyaret_tarihi" required>
+            </div>
+            <div class="form-grup">
+                <label for="ziyaret_suresi">Ziyaret Süresi (dakika):</label>
+                <input type="text" id="" name="ziyaret_suresi">
+            </div>
+            <button type="submit" class="kaydet-butonu">Kaydet</button>
+        </form>
+    </div>
+</body>
+</html>
